@@ -73,7 +73,8 @@ const Login = () => {
     }
     
 
-    const loginSubmit = ()=>{
+    const loginSubmit = (e:any)=>{
+        e.preventDefault();
         setErrorLogin("");
         const emailValidationRes: ValidationResultType = validateLoginEmail(user.email); 
         const passwordValidationRes: ValidationResultType = validateLoginPassword(user.password); 
@@ -114,7 +115,7 @@ const Login = () => {
                         <div>{errors.email}</div>
                         <div>{errors.password}</div>
                     </div>
-                    <form noValidate autoComplete="off">
+                    <form noValidate autoComplete="off" action="">
                         <div className="input-text-field-margin">
                             <TextField
                                 autoFocus
@@ -153,7 +154,8 @@ const Login = () => {
                                 variant="contained"
                                 color="primary"
                                 className="submit-button"
-                                onClick={loginSubmit}
+                                type="submit"
+                                onClick={(e:any)=>loginSubmit(e)}
                             >
                                 <b>Login</b>
                             </Button>

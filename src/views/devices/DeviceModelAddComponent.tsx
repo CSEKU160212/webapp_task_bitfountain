@@ -215,6 +215,7 @@ const DeviceAddComponent = (props: propType) => {
                                             value={newModel.Type}
                                             onChange={(deviceModel: DeviceType) => {
                                                 setNewModel({...newModel, Type:deviceModel});
+                                                removeErrorMessage();
                                             }}
                                         />
                                     </FormControl>
