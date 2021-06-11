@@ -1,0 +1,14 @@
+.device-add-box {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    box-sizing: border-box;
+    margin: auto;
+    width: 396px;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.dialog-footer {
+    padding: 20px;
+}

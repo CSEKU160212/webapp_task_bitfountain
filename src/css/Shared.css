@@ -1,0 +1,61 @@
+.appbar-title:hover {
+    cursor: pointer;
+}
+
+.error-text {
+    color: red;
+    text-align: center;
+    font-size: 16px;
+}
+.success-text {
+    color: green;
+    text-align: center;
+    font-size: 16px;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.float-button {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.input-text-field {
+    width: 90%;
+}
+
+.input-text-field:hover {
+    background-color: #e8f0fe;
+}
+
+.input-text-field-margin {
+    margin: 15px;
+}
+.custom-input-field:hover {
+    background-color: #e8f0fe;
+    border: 0.1px solid black;
+    border-radius: 5px;
+}
+
+.submit-button {
+    height: 50px;
+    border-radius: 15px;
+    width: 90%;
+}
+
+.custom-page {
+    min-height: 100vh;
+}
+
+.pagination {
+    padding: 50px 0px 50px 0px;
+}
+
+.loading-progress {
+    text-align: center;
+}
