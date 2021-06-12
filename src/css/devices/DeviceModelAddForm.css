@@ -1,12 +1,25 @@
-.device-add-box {
-    align-items: center;
-    background-color: #fff;
-    border: none;
-    box-sizing: border-box;
-    margin: auto;
-    width: 396px;
-    margin: 20px;
-    margin-top: 0px;
+@media screen and (min-width: 470px) {
+    .device-add-box {
+        align-items: center;
+        background-color: #fff;
+        border: none;
+        box-sizing: border-box;
+        margin: auto;
+        width: 396px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .device-add-box {
+        align-items: center;
+        background-color: #fff;
+        border: none;
+        box-sizing: border-box;
+        margin: auto;
+        width: 100%;
+        margin-top: 0px;
+    }
 }
 
 .dialog-footer {
