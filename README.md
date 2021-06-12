@@ -11,11 +11,11 @@ In the project directory, run bellow commands:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-To build, run:
+To build with Sourcemap, run:
 
 ### `npm run build`
 
-To build without sourcemap, run:
+To build without Sourcemap (On windows machine), run:
 
 ### `npm run winBuild`
 
