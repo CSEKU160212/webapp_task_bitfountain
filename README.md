@@ -6,9 +6,7 @@ To clone, run:
 
 ### `git clone https://github.com/CSEKU160212/webapp_task_bitfountain.git`
 
-Or you can download zip file, to download, click the link given bellow:
-
-[https://github.com/CSEKU160212/webapp_task_bitfountain/archive/refs/heads/main.zip](https://github.com/CSEKU160212/webapp_task_bitfountain/archive/refs/heads/main.zip)
+Or you can download zip file, to download, click here: [https://github.com/CSEKU160212/webapp_task_bitfountain/archive/refs/heads/main.zip](https://github.com/CSEKU160212/webapp_task_bitfountain/archive/refs/heads/main.zip)
 
 In the project directory, run bellow commands:
 
