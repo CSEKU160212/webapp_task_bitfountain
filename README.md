@@ -30,3 +30,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+
+### Notes File
+
+[https://github.com/CSEKU160212/webapp_task_bitfountain/blob/main/Notes.pdf](https://github.com/CSEKU160212/webapp_task_bitfountain/blob/main/Notes.pdf)
